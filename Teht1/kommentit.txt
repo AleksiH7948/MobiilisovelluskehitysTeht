@@ -1,0 +1,7 @@
+1. 
+Index.html sisältää staattista sisältöä, joka näkyy vaikka JS ei olisi käytössä.
+Hello World on staattista sisältöä.
+2.
+index.html:ssä on meta.tagin sisällä asetuksia
+3.
+Sovelluksen CSS-tyylit tukevat responsiivisuutta ja levittävät sovelluksen koko ruudulle.
