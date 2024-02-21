@@ -11,6 +11,12 @@ export class AppComponent implements OnInit {
   title = 'ang-pwakoe';
 
   ts = inject(TodoService);
+  json!: Todo;
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.ts
+      .getTodos()
+      .then((response) => response.json())
+      .then((json) => (this.json = json));
+  }
 }
