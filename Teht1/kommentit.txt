@@ -5,3 +5,14 @@ Hello World on staattista sisältöä.
 index.html:ssä on meta.tagin sisällä asetuksia
 3.
 Sovelluksen CSS-tyylit tukevat responsiivisuutta ja levittävät sovelluksen koko ruudulle.
+4. 
+Sovelluksessa pitää olla service worker ja se pitää
+rekisteröidä ja ottaa käyttöön.
+5.
+manifest.json esittää määritykset, joiden perusteella
+laite tietää että kyseessä on PWA ja tietää kuinka se esitetäään.
+6.
+ikonit manifestiin ja ikoneihin ja teemaväriin liittyviä määrityksiä
+index.html:ään muita selaimia kuin chromea varten.
+7. 
+Tehdään ikoneista maskable-ikoneita, että mahdollinen valkoinen tausta poistuu.
