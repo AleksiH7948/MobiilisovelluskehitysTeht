@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "book-2052c": {
+      "hosting": {
+        "ang-firebookapp--standalone-false": [
+          "book-2052c"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "book-2052c"
+  }
+}

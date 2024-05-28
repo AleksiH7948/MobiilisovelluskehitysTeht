@@ -1,0 +1,15 @@
+ION-SIMPLETABS
+
+Yksinkertaistettu ionic-sovelluspohja, joka on 
+tehty ionic-tabs -sovelluspohjasta.
+
+Tästä lähdetään tekemään .apk-pakettia Capacitorilla
+kts. https://ionicframework.com/docs/developing/android#project-setup
+
+Testitiedostot ja -kirjastot on poistettu. 
+Lisäksi sovellusta (app-kansio) on
+yksinkertaistettu.
+
+Jos haluat muuttaa sovelluksen nimen, vaihda se 
+package.json, ionic.config.json ja capacitor.config.ts 
+-tiedostoihin ja muuta sovelluksen kansion nimi.

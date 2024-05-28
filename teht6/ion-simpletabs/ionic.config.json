@@ -1,0 +1,5 @@
+{
+  "name": "ion-simpletabs",
+  "integrations": { "capacitor": {} },
+  "type": "angular"
+}
