@@ -15,6 +15,7 @@
         ]
       }
     },
+
     {
       "name": "assets",
       "installMode": "lazy",
@@ -29,8 +30,8 @@
   ],
   "dataGroups": [
     {
-      "name": "api",
-      "urls": ["https://jsonplaceholder.typicode.com/todos/**"],
+      "name": "data",
+      "urls": ["https://jsonplaceholder.typicode.com/todos"],
       "cacheConfig": {
         "maxSize": 100,
         "maxAge": "3d",

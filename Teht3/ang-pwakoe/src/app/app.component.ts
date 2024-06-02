@@ -1,21 +1,16 @@
-import { Component, OnInit, inject } from '@angular/core';
-import { Todo } from './todo';
-import { TodoService } from './todo.service';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
-export class AppComponent implements OnInit {
+export class AppComponent {
   title = 'ang-pwakoe';
-
-  ts = inject(TodoService);
-  json!: Todo;
+  json: any;
 
   ngOnInit(): void {
-    this.ts
-      .getTodos()
+    fetch('https://jsonplaceholder.typicode.com/todos/1')
       .then((response) => response.json())
       .then((json) => (this.json = json));
   }
