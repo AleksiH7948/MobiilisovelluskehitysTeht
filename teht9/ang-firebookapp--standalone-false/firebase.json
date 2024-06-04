@@ -1,9 +1,0 @@
-{
-  "hosting": [
-    {
-      "target": "ang-firebookapp--standalone-false",
-      "source": ".",
-      "frameworksBackend": {}
-    }
-  ]
-}
