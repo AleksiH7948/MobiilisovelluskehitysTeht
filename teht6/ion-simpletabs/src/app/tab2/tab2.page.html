@@ -7,5 +7,12 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <p>Tab2 teksti</p>
+  <img src="assets/img/studies.png" width="220px" height="220px" />
+  <ion-list>
+    <ion-item *ngFor="let x of study">
+      <!--Data tänne-->
+      {{x.info}}
+
+    </ion-item>
+  </ion-list>
 </ion-content>
