@@ -1,0 +1,32 @@
+.navbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+.sitebutton {
+  background: none;
+  border: none;
+  color: inherit;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.sitebutton:hover {
+  background-color: #555; /* Hoverin väri */
+}
+
+/* Responsiivisuus pienemmille näytöille */
+@media (max-width: 600px) {
+  .sitebutton {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+}

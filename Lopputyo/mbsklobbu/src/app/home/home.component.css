@@ -1,0 +1,29 @@
+#title {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#content {
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  align-items: center;
+  height: fit-content;
+  text-align: center;
+}
+
+.text {
+  max-width: 600px;
+  padding: 20px;
+}
+
+#imagecontainer {
+  display: flex;
+  justify-content: center;
+}
+
+#img {
+  border-radius: 50%;
+  max-width: 10rem;
+  box-shadow: 1px 1px 10px #000000b3;
+}

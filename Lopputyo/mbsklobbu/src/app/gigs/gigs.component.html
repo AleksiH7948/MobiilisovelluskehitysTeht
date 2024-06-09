@@ -1,0 +1,12 @@
+<h1 id="title">Keikat</h1>
+
+
+<div class="cards-wrapper">
+  <div class="card-container">
+    <div class="card" *ngFor="let gigs of gigs">
+      <h2>{{gigs.info}}</h2>
+      <h3>{{gigs.date.toLocaleDateString()}}</h3>
+
+    </div>
+  </div>
+</div>

@@ -1,0 +1,13 @@
+<h1 id="title">Portfolio</h1>
+
+
+<div class="cards-wrapper">
+  <div class="card-container">
+    <div class="card" *ngFor="let musics of music">
+      <h2>{{musics.title}}</h2>
+      <p>{{musics.year}}</p>
+      <p>{{musics.info}}</p>
+      <a href="{{musics.url}}">Linkki</a>
+    </div>
+  </div>
+</div>

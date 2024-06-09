@@ -1,0 +1,12 @@
+body,
+html {
+  height: 95%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #eeb7f5;
+}
+
+app-root {
+  width: 100%;
+}
